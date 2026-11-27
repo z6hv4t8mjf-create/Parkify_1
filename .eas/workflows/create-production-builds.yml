@@ -6,6 +6,7 @@ on:
 jobs:
   build_android:
     type: build
+    working_directory: pakifyapp
     params:
       platform: android
       profile: production
